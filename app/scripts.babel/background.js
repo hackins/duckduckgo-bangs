@@ -68,7 +68,7 @@ function addChildrenToContextMenu() {
             addChildToContextMenu('Google News', '!gn');
         }
         if (items.hackerNewsLink === true) {
-            addChildToContextMenu('Hacker News', '!hn');
+            addChildToContextMenu('Hacker News', '!yandex');
         }
         if (items.facebookLink === true) {
             addChildToContextMenu('Facebook', '!fb');
