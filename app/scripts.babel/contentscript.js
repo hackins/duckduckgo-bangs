@@ -67,7 +67,7 @@ const inject = (query) => {
             containerElement.insertBefore(linkBuilder(query, '!w', 'Wiki', 'Wikipedia'), linksElement);
         }
         if (items.hackerNewsButton === true) {
-            containerElement.insertBefore(linkBuilder(query, '!hn', 'Hack', 'Hacker News'), linksElement);
+            containerElement.insertBefore(linkBuilder(query, '!yandex', 'Hack', 'Hacker News'), linksElement);
         }
         if (items.facebookButton === true) {
             containerElement.insertBefore(linkBuilder(query, '!fb', 'FB', 'Facebook'), linksElement);
